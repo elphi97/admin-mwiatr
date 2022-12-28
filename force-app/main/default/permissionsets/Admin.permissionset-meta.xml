@@ -5,8 +5,28 @@
         <visible>true</visible>
     </applicationVisibilities>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Category__c.NumberActiveProducts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Category__c.NumberArchivedProducts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Category__c.NumberDraftProducts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Category__c.Parent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product__c.DefaultVatRate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
