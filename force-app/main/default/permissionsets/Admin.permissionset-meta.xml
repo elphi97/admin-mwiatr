@@ -56,7 +56,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-
+        <object>Order__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>ProductCategory__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -71,6 +79,10 @@
     </objectPermissions>
     <tabSettings>
         <tab>Category__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Order__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
