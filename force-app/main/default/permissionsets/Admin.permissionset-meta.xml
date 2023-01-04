@@ -26,6 +26,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ProductCategory__c.TechnicalProductCategoryUniqueHelper__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Product__c.DefaultVatRate__c</field>
         <readable>true</readable>
     </fieldPermissions>
