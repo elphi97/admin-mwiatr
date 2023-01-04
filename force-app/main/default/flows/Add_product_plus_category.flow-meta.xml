@@ -3,7 +3,7 @@
     <apiVersion>56.0</apiVersion>
     <assignments>
         <description>You can add only once the same product and category</description>
-        <name>test1234</name>
+        <name>Add_same_product_and_category_once</name>
         <label>Add_same_product_and_category_once</label>
         <locationX>176</locationX>
         <locationY>311</locationY>
@@ -63,13 +63,13 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>test1234</targetReference>
+            <targetReference>Add_same_product_and_category_once</targetReference>
         </connector>
         <object>ProductCategory__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>product_plus_category</name>
         <dataType>String</dataType>
