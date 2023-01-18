@@ -26,6 +26,34 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>OrderLineItem__c.Discount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderLineItem__c.EffectiveUnitPrice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderLineItem__c.Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderLineItem__c.Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderLineItem__c.Total_Net_Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderLineItem__c.UnitListPrice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
         <field>ProductCategory__c.TechnicalProductCategoryUniqueHelper__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -66,6 +94,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>OrderLineItem__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Order__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -89,6 +126,10 @@
     </objectPermissions>
     <tabSettings>
         <tab>Category__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>OrderLineItem__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
