@@ -18,6 +18,16 @@
     </approvalPageFields>
     <approvalStep>
         <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>ApprovalStatus</name>
+                <type>FieldUpdate</type>
+            </action>
+            <action>
+                <name>Update_Status</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
         <assignedApprover>
             <approver>
                 <name>mateusz.wiatr+admindev@gmail.com</name>
@@ -27,6 +37,12 @@
         </assignedApprover>
         <label>step1</label>
         <name>step1</name>
+        <rejectionActions>
+            <action>
+                <name>Reject_Status</name>
+                <type>FieldUpdate</type>
+            </action>
+        </rejectionActions>
     </approvalStep>
     <emailTemplate>unfiled$public/SupportCaseResponse</emailTemplate>
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
